@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Work Sans', Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: var(--Light-Pink, #F9F0FF);
+}
+
+.bg-container {
+    width: 100%;
+    height: auto;
+}
+
+#box-faqs {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    flex-direction: column;
+    width: 700px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.3);
+    padding: 40px 0;
+}
+
+.title {
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--Dark-purple, #2F1533);
+    gap: 10px;
+    padding: 10px 40px;
+}
+
+#box-faqs .star {
+    width: 30px;
+    height: auto;
+}
+
+.title-faq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px 10px 40px;
+}
+
+.title-faq h2 {
+    font-size: 18px;
+    color: #2F1533;
+    font-weight: 700;
+}
+
+.title-faq img {
+    justify-content: flex-end;
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+.title-faq img:hover {
+    opacity: 0.9;
+    transition: 0.2s;
+}
+
+.response,
+.response-2,
+.response-3,
+.response-4 {
+    display: none;
+    padding: 0 40px 10px 40px;
+}
+.response,
+.response-2,
+.response-3,
+.response-4 p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #8C6991;
+}
+
+.minus,
+.minus-2,
+.minus-3,
+.minus-4 {
+    display: none;
+}
+
+.plus,
+.plus-2,
+.plus-3,
+.plus-4 {
+    display: block;
+}
+
+.hide {
+    display: block;
+}
+
+/* Responsividade */
+
+@media (min-width: 500px) and (max-width: 800px) {
+
+#box-faqs {
+    width: 90%;
+    height: auto;
+}
+}
+
+@media (max-width: 500px) {
+
+#box-faqs {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    box-shadow: 3px 1px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px 0;
+}
+
+.title-faq {
+    padding: 0 10px 10px 10px;
+}
+
+.title {
+    font-size: 24px;
+    padding: 10px 10px;
+}
+
+#box-faqs .star {
+    width: 24px;
+    height: auto;
+}
+
+.title-faq h2 {
+    font-size: 16px;
+}
+
+.title-faq img {
+    width: 22px;
+    height: auto;
+}
+
+.response,
+.response-2,
+.response-3,
+.response-4 {
+    padding: 0 10px 10px 10px;
+}
+.response,
+.response-2,
+.response-3,
+.response-4 p {
+    font-size: 16px;
+}
+
+}
