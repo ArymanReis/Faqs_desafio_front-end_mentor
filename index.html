@@ -18,7 +18,10 @@
 </head>
 <body>
   <div class="container">
-    <img class="bg-container" src="assets/images/background-pattern-desktop.svg" alt="background-pattern">
+    <picture>
+      <source media="(max-width: 500px)" srcset="assets/images/background-pattern-mobile.svg">
+      <img class="bg-container" src="assets/images/background-pattern-desktop.svg" alt="background-pattern">
+    </picture>
 
     <div id="box-faqs">
       <div class="title">
