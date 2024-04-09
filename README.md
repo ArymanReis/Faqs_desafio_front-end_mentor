@@ -1,11 +1,12 @@
 ### Projeto treinamento da plataforma Front-End Mentor
 
-#### O que foi feito:
+#### O que foi feito por mim:
 - Protótipo Figma
 - Códigos
 - Responsividades
   
-<img align="center" alt="html5" src="assets/images/background-pattern-desktop.svg" />
+### Imagem recebida 
+<img align="center" alt="html5" src="design/desktop-preview.jpg" />
 
 ### Tecnologias usadas
 
@@ -17,11 +18,11 @@
   <img align="center" alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
 </div><br/>
 
-#### Encontrei na tecnologia desafios adrenalizantes, como um apaixonado por esportes radicais estou fisurado nesse universo. Meu foco é ser um front-end que usa a programação para tornar a vida das pessoas mais fácil e prazerosa.
-
 #### Contatos:
 - Email: arymanreis@gmail.com
-- Whatsapp: 21 98642-6569 
+- Whatsapp: 21 98642-6569
+- https://www.behance.net/arymanreis
+- https://www.linkedin.com/in/aryman-garcia-reis-16347629b/
 
 ![Behance](https://img.shields.io/badge/-Behance-blue?style=for-the-badge&logo=behance&logoColor=white (https://www.behance.net/arymanreis)) 
 ![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white (https://www.linkedin.com/in/aryman-garcia-reis-16347629b/))
